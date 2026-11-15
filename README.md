@@ -11,4 +11,4 @@
 ## Seed note
 
 This repository was initialized from issue `#1` (`poc test`) on 2026-07-22.
-시험 W1: 2026-11-16
+시험 W1: 2026-11-16 (수정 확인)

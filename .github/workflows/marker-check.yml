@@ -1,0 +1,13 @@
+name: marker-check
+on: pull_request
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: forbidden marker
+        run: |
+          if grep -q "시험 2-D" README.md; then
+            echo "README.md 에 금지 문구가 있다 (REQ-010 시험 2-D 용 검사)"
+            exit 1
+          fi

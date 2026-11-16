@@ -11,3 +11,5 @@
 ## Seed note
 
 This repository was initialized from issue `#1` (`poc test`) on 2026-07-22.
+
+리허설 D: 시험 2-D 문구를 그대로 둔다

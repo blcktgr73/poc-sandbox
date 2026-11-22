@@ -10,8 +10,8 @@ columns:
 assignment:
   Backlog:
     decider: human
-    next-role: weaver-human-test
+    next-role: collaboration-implementation
     task-field: assignee
     when:
       project-field: Type
-      in: [docs]
+      in: [feature]

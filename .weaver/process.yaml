@@ -1,0 +1,17 @@
+version: 1
+columns:
+  source: board-status
+  board:
+    Backlog: Backlog
+    Todo: Backlog
+    Ready: Ready
+    In Progress: In progress
+    Done: Verified
+assignment:
+  Backlog:
+    decider: human
+    next-role: weaver-human-test
+    task-field: assignee
+    when:
+      project-field: Type
+      in: [docs]

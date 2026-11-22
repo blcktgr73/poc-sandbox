@@ -12,8 +12,8 @@ repository: blcktgr73/poc-sandbox
 
 - A human execution check and separate action confirmation precede a single agent-label action.
 - Weaver records the action attempt and result; router delivery and agent acknowledgement are checked independently.
-- The agent changes only the requested sandbox file and provides the verification result in a pull request.
-- A reviewer checks the resulting pull request and evidence before merge.
+- Morpheus acknowledges the request once in its processing channel and stops.
+- No implementation or review cycle is initiated.
 
 ## Tasks
 
